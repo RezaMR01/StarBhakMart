@@ -1,0 +1,274 @@
+
+.header{
+    height: 10px;
+    width: 98%;
+    background-color: rgb(93, 93, 245);
+    border-radius: 3px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+}
+.select{
+    width: 23%;
+    padding: 0.8%;
+    margin-left: 1%;
+    color: white;
+}
+#jay{
+    text-align: center;
+    background-color: rgb(138, 138, 255);
+    color: white;
+    width: 22%;
+    height: 20px;
+    padding: 0.5%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+#mang{
+    margin: 0px;
+    padding-left: 5px;
+    margin-right: 0px;
+}
+.profile{
+    width: 20px;
+    height: 20px;
+    padding-left: 98px;
+}
+#text{
+    text-align: center;
+    height: 1px;
+}
+.scrollable-list {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.judul{
+    width: 74%;
+    padding: 0.5px;
+    height: 39px;
+
+    background-color:   aliceblue;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    margin-top: 60px;
+    align-items: center;
+}
+#teks{
+    text-align: center;
+    margin-bottom: 5px;
+}
+div #navkiri{
+    margin-top: -10px;
+    height: 49px;
+    margin-left: 10px;
+    align-items: end;
+    /* display: flex; */
+    justify-content: space-between;
+}
+.sidebar {
+    width: 320px;
+    /* Change the height property to make the sidebar taller */
+    height: 350px;
+    margin-left: 13px;
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: #eee;
+    padding-top: 3px;
+    overflow-y: scroll;
+}
+.namaitm{
+    font-size: medium;
+    margin: 0px;
+}
+.item{
+    border: 2px solid black;
+    height: 50px;
+    padding: 5px;
+    background-color: white;
+}
+.del{
+    
+    width: 30px;
+    margin-top: -35px;
+    float: right;
+}
+.container{
+    /* display: flex; */
+    width: 100%;
+    height: 66.2vh;
+    margin-top: -1%;
+    margin-bottom: 30 px;
+    border: 1px solid black;
+    background-color: #eee;
+}
+/* .logo{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+} */
+.image{
+    width: 10px;
+    height: 10px;
+}
+/* #root {
+    width: 45%;
+    height: 50%;
+} */
+.box{
+    /* display: flex; */
+    width: 30%;
+    height: 200px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    /* border-radius: 5px; */
+    /* padding: 15px; */
+}
+.img-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    /* max-width: 90%;
+    max-height: 90%;
+    object-fit: cover;
+    object-position: center; */
+    width: 80%;
+    margin: 5px;
+    height: 13vh;
+}
+/* .bottom{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+} */
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    margin-left: 0px;
+}
+.isi{
+    margin: 5px;
+    border: 1px solid black;
+    height: 150px;
+    width: 100px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.p{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 10px;
+}
+.h3{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.foto{
+    width: 80%;
+    
+    margin-left: 7px;
+    height: 13vh;
+    
+}
+.gambar{
+    width: 85px;
+    height: 91px;
+}
+.jumlah{
+    width: 23%;
+    margin-top: 10px;
+    margin-left: 12px;
+    
+    background-color: #eee;
+    
+}
+#distax{
+    background-color: white;
+    margin: 2px;
+    margin-top: 3px;
+    height: 45px;
+}
+#disc{
+    margin: 10px 0px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 2px;
+}
+#tax{
+    margin: 10px 0px;
+    margin-left: 2px;
+    margin-top: 3px;
+}
+h4{
+    margin: 0px;
+    margin-left: 2px;
+    margin-top: 3px;
+    color: white;
+}
+#total{
+    background-color: rgb(138, 138, 255);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.print-cart-row{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    margin: 0px;
+}
+#textax{
+    margin: 0px;
+    font-weight: bold;
+}
+#harga{
+    margin: 0px;
+    color: white;
+}
+.payment{
+    margin-top: 10px;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+.btnbayar{
+    height: 50px;
+    width: 200px;
+    margin-right: 3px;
+    background-color: rgb(138, 138, 255);
+    float: right;
+    text-align: center; 
+}
+.foot{
+    background-color: rgb(93, 93, 245);
+    margin-top: 10px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: white;
+}
